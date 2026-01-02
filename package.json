@@ -13,6 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "lint-staged": {
+    "*.{ts,js}": [
+      "npm run lint:fix"
+    ]
+  },
   "description": "",
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
