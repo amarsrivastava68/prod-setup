@@ -1,11 +1,11 @@
 {
-        "semi": false,
-        "singleQuote": true,
-        "trailingComma": "none",
-        "tabWidth": 4,
-        "bracketSameLine": true,
-        "proseWrap": "preserve",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "bracketSameLine": true,
+    "proseWrap": "preserve",
 
-        "singleAttributePerLine": true,
-        "endOfLine": "crlf"
+    "singleAttributePerLine": true,
+    "endOfLine": "crlf"
 }

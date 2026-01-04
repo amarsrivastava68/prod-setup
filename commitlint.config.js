@@ -1,9 +1,21 @@
-module.exports ={
-    extends: ['@commitlint/config-conventional' , "@commitlint/cli"],
+module.exports = {
+    extends: ['@commitlint/config-conventional', '@commitlint/cli'],
     rules: {
-        'type-enum': [2, 'always', [
-            'feat', 'fix', 'docs', 'style', 'refactor', 'perf', 'test', 'chore', 'revert'
-        ]],
-        'subject-case': [2 , 'always' , 'sentence-case']
+        'type-enum': [
+            2,
+            'always',
+            [
+                'feat',
+                'fix',
+                'docs',
+                'style',
+                'refactor',
+                'perf',
+                'test',
+                'chore',
+                'revert'
+            ]
+        ],
+        'subject-case': [2, 'always', 'sentence-case']
     }
 }
